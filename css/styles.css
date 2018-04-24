@@ -1,0 +1,26 @@
+.mybutt {
+  background-color: #141403;
+  border: none;
+  color: #f4f142;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 60px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mybutt:hover {
+  background-color: #f4f142;
+  color: #141403;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.mybutt-container {
+  text-align: center;
+}
