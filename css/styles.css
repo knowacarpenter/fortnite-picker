@@ -1,12 +1,13 @@
 .mybutt {
   background-color: #141403;
   border: none;
+  font-family: 'Bree Serif', serif;
   color: #f4f142;
   padding: 10px 20px;
   text-align: center;
   font-size: 60px;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 12px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -17,7 +18,8 @@
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 70px;
+  font-family: 'Bree Serif', serif;
   text-align: center;
 }
 
