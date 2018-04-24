@@ -6,18 +6,27 @@
     <!--Link to CSS+Fonts and whatnot-->
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+    <script src="../js/index.js"></script>
     <!--Title-->
     <title>Lorem Ipsum</title>
-
     <!--Meta tags-->
-
   </head>
 
   <body>
     <h1>Lorem Ipsum</h1>
     <div class="mybutt-container">
-      <button class = "mybutt">Click Me!</button>
+      <button onclick="getRandomLocation" class = "mybutt">Click Me!</button>
     </div>
+    <span id="demo"></span>
+    <!--Added this stuff in as a test
+    <script>
+        document.getElementById("button").addEventListener("click", displayDate);
+
+        function getRandomLocation() {
+        document.getElementById("demo").innerHTML = Date();
+        }
+      </script>
+    -->
   </body>
 
 </html>
